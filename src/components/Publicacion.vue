@@ -248,7 +248,12 @@ export default {
                     esVideo: esVideoTmp //+ nombre.img
                 });
             }
-            this.multimedias = fileList;  
+            // this.multimedias = fileList;
+            for (let i = 0; i < fileList.length; i++) {
+                const formData = new FormData();
+                formData.append("file", fileList[i], fileList[i].name);
+                this.multimedias.push(formData);
+            }
             console.log(this.lista)
             for (let i = 0; i < fileList.length; i++) {
                 console.log(this.lista[i]);
