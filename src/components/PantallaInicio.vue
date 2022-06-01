@@ -18,7 +18,7 @@
             <div class="half-col">
                 <div class="t-info">
                   <br>                
-                    <h1>Conoce la nueva red social de nueva generacion</h1>
+                    <h1>Conoce la nueva red social de nueva generación</h1>
                     <p>Nuestra red social, segura, transparente, gratis y 100% mexicana
                         es la forma de conectar con tus amigos y familia que buscas.
                     </p>

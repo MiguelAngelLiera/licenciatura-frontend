@@ -1,6 +1,5 @@
 <template>
     <div>
-    <NavBarInicio/>
     <section>
         <div class="card my-card" >
             <div class=card-header>
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-
 import router from '../router';
 export default {
     name: 'Feed',
