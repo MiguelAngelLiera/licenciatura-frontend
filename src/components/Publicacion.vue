@@ -210,6 +210,7 @@ export default {
         // console.log(this.multimedias);
         // console.log(this.multimedias[0]);
         // console.log(this.multimedias[1]);
+        // if(this.muldimedias.length != 0){
         axios.post(SERVER + '/feed/multimedia/', {
             lista: this.lista,
             multimedias: this.multimedias
@@ -223,7 +224,9 @@ export default {
                 console.log(error.response.data);
                 this.$bvModal.show("error");
                 this.titulo_error = error.response.data.Descripcion;
-           });
+        });
+        // }
+        
         },
         toggle() {
             this.es_publica = !this.es_publica;
